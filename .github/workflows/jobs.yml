@@ -39,4 +39,4 @@ jobs:
         id: buildStep
         run: |
           bunvar=$(bun --version)
-          echo "buildOut=$bunver >> $GITHUB_OUTPUT"
+          echo "buildOut=$bunver" >> "$GITHUB_OUTPUT"
